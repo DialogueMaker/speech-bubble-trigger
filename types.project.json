@@ -1,0 +1,13 @@
+{
+  "name": "speech-bubble-trigger",
+  "tree": {
+    "$className": "DataModel",
+    "speech-bubble-trigger": {
+      "$path": "Packages",
+      "$ignoreUnknownInstances": true,
+      "speech-bubble-trigger": {
+        "$path": "src"
+      }
+    }
+  }
+}
