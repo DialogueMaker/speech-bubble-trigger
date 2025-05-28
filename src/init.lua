@@ -6,8 +6,8 @@
 
 local CollectionService = game:GetService("CollectionService");
 
-local IDialogueClient = require(script.Parent["dialogue-client-types"]);
-local IDialogueServer = require(script.Parent["dialogue-server-types"]);
+local IDialogueClient = require("@pkg/dialogue_client_types");
+local IDialogueServer = require("@pkg/dialogue_server_types");
 
 type DialogueClient = IDialogueClient.DialogueClient;
 type DialogueServer = IDialogueServer.DialogueServer;
