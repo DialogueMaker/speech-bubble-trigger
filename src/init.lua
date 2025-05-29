@@ -6,8 +6,9 @@
 
 local CollectionService = game:GetService("CollectionService");
 
-local IDialogueClient = require("@pkg/dialogue_client_types");
-local IDialogueServer = require("@pkg/dialogue_server_types");
+local packages = script.Parent.roblox_packages;
+local IDialogueClient = require(packages.dialogue_client_types);
+local IDialogueServer = require(packages.dialogue_server_types);
 
 type DialogueClient = IDialogueClient.DialogueClient;
 type DialogueServer = IDialogueServer.DialogueServer;
