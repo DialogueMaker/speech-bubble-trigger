@@ -1,5 +1,5 @@
 name = "dialoguemaker/speech_bubble_trigger"
-version = "0.1.0-patch-3"
+version = "0.1.0"
 description = ""
 authors = ["Christian Toney <christian.toney@beastslash.com>"]
 repository = "https://github.com/DialogueMaker/speech_bubble_trigger"
@@ -39,5 +39,4 @@ luau_lsp = { name = "pesde/luau_lsp", version = "^1.47.0", target = "lune" }
 react = { wally = "jsdotlua/react", version = "^17.2.1" }
 
 [dependencies]
-client_types = { name = "dialoguemaker/client_types", version = "^0.1.0-patch-1" }
-conversation_types = { name = "dialoguemaker/conversation_types", version = "^0.1.0-patch-2" }
+dialogue_maker_types = { name = "dialoguemaker/types", version = "^0.1.6" }
